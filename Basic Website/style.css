@@ -1,0 +1,65 @@
+
+        a
+        {
+            color: aquamarine;
+            background-color: red;
+        }
+        
+        a:hover
+        {
+            color: blue;
+            background-color:darkgoldenrod;
+        }
+        
+        img
+        {
+            width: 350px;
+           height: 250px;
+            border-style:solid;
+            border-color: aqua;
+            border-width: 10px;
+         /*   padding-top: 10px;*/
+           /* padding-bottom:10px;*/
+ padding: 10px 50px 10px 10px;
+            
+        }
+        
+        h2
+        {
+         font-size: 24px;
+         color: #2222a3;
+        background-color:yellow;
+        
+            text-align:center;
+        }
+        
+/*        My comments */
+
+        #p0
+        {
+            font-size: 20px;
+            color:aqua;
+            clear: both;
+            text-align: center;
+/*            position: */
+          
+        }
+        
+        
+        .myClassName
+        {
+/*            background-color: beige;*/
+            font-size: 15px;
+            background-image: url("images/game_on_logo.gif");
+            display: block;
+            border: 2 px dashed black;
+            padding: 4px;
+            margin: 10px;
+            /* 20px 40px; 
+            20px 30px 20px 25px;
+            */
+            
+            bottom: 120px;
+            right:200px;
+        }
+    
