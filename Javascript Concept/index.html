@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> My first JS </title>
+    
+    <script>
+    console.log("Welcome to my first game!");
+    
+    var livesVariable= 3;
+    var health= 50;
+    
+   // var result = num1 + num2;
+        
+    var playerName="Jim";
+        
+    var message=playerName +  " has "+ livesVariable +" lives" + " and initial health is "
+    + health+"%";
+    
+    console.log(message);
+    
+    health=health*0.1;
+ console.log(health);
+    //This variable signfies whether the game has ended    
+    var isGameEnded=false;
+        
+        
+        //end the game if health goes below 10. 10 is just an aribtrary value I have selected... Typically you want the health to go down to 0 before the game ends.
+  //  if(health < 1)
+        if(health<51 && health>31)
+ console.log("You've lost around half your health!");
+    else if(health<31
+           && health > 10
+           )
+console.log("Low Health. Recharge soon!");
+    else if(health<11
+           && health>0
+           )
+    console.log("Health down to critical level");
+    else if (health<1)         isGameEnded=true;
+    
+        
+        
+        
+        
+        if(isGameEnded)
+        console.log("Game Over");
+        else 
+        console.log("game is still on");
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+    </script>
+</head>
+    
+<body>
+    
+    
+</body>
+    
+    
+</html>
